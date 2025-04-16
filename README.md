@@ -37,10 +37,11 @@ We conduct experiments on Breakfast with 4 splits and 50Salads with 5 splits.
 
 #Results we get when using 50-salads Dataset
  I
- INPUT TYPES         METHOD                   β (α = 0.2)                                                                     β (α = 0.3)
-                                    0.1              0.2             0.3            0.5                        0.1            0.2             0.3              0.5
-FEATURES       FUTR(Paper result)  39.55             27.54        23.31           17.77                        35.15           24.86         24.22            15.26
-FEATURES       FUTR(my result)     34.44             34.75        23.57           18.26                        34.43            21.19         18.87           19.88        
+| INPUT TYPES |       METHOD  |                 β (α = 0.2)  |                                                                   β (α = 0.3)|
+                                       | 0.1  |            0.2   |          0.3       |     0.5                     |   0.1  |          0.2    |         0.3  |            0.5|
+|----------|----------------------|----------------------------------------------------------------|---------------------------------------------------------------------------|                                       
+|FEATURES |     | FUTR(Paper result)|  |39.55 |            27.54   |     23.31      |     17.77   |                     35.15   |        24.86 |        24.22 |           15.26|
+|FEATURES  |    |FUTR(my result)  |  | 34.44 |            34.75   |     23.57       |    18.26    |                    34.43      |      21.19  |       18.87 |           19.88|        
 
 #Results we get when using Breakfast Dataset
 
