@@ -36,20 +36,21 @@ We conduct experiments on Breakfast with 4 splits and 50Salads with 5 splits.
 |50Salads|FUTR|37.01|27.81|22.46|16.75|33.32|23.17|22.14|15.49| [1](https://postechackr-my.sharepoint.com/:u:/g/personal/gongda0e_postech_ac_kr/EQJoAF7MSZxGltJ82ylbxoQBtBDMwxMxSn7bfi0z0rv1Bg?e=ogkqhe) [2](https://postechackr-my.sharepoint.com/:u:/g/personal/gongda0e_postech_ac_kr/EQ1rfz2VcAlOg6gxBn87eAkBhfptxrplZWW3_fkWfO3ftg?e=HZ6b71) [3](https://postechackr-my.sharepoint.com/:u:/g/personal/gongda0e_postech_ac_kr/EdgtGzn8jxhEpWsPE_KjQSEBfwq6EH1Sb4yZZU6KPUpFcg?e=6Hlucm) [4](https://postechackr-my.sharepoint.com/:u:/g/personal/gongda0e_postech_ac_kr/EV_3uQ-GCh1KnRXJhX4zWacBdIOouDW4soJDLzKFFjaYgA?e=zMl2Ss) [5](https://postechackr-my.sharepoint.com/:u:/g/personal/gongda0e_postech_ac_kr/EUfzEKbXHHtBuVceoCau6i4BGY1HhqADbXClSd5ne8YxmA?e=IdmzhR)|
 
 #Results we get when using 50-salads Dataset
- I
-| INPUT TYPES |       METHOD  |                 β (α = 0.2)  |                                                                   β (α = 0.3)|
-                                       | 0.1  |            0.2   |          0.3       |     0.5                     |   0.1  |          0.2    |         0.3  |            0.5|
-|----------|----------------------|----------------------------------------------------------------|---------------------------------------------------------------------------|                                       
-|FEATURES |     | FUTR(Paper result)|  |39.55 |            27.54   |     23.31      |     17.77   |                     35.15   |        24.86 |        24.22 |           15.26|
-|FEATURES  |    |FUTR(my result)  |  | 34.44 |            34.75   |     23.57       |    18.26    |                    34.43      |      21.19  |       18.87 |           19.88|        
+| INPUT TYPES |       METHOD  |                 β (α = 0.2)  |                   β (α = 0.3)|
+                                       | 0.1  |  0.2   | 0.3 | 0.5|      0.1  |  0.2  | 0.3  | 0.5|
+|----------|------------------|---------------------------------------|-------------------------------|                                       
+|FEATURES |  FUTR(Paper result)|  |39.55 |  27.54   |  23.31 |   17.77  |  35.15   | 24.86 |  24.22 | 15.26|
+|FEATURES |  FUTR(my result)  |  | 34.44 |   34.75   |  23.57 |  18.26  |  34.43  |21.19  |  18.87 | 19.88|        
 
 #Results we get when using Breakfast Dataset
 
-INPUT TYPES        METHOD               β (α = 0.2)                                                                        β (α = 0.3)
-                                     0.1              0.2             0.3            0.5                         0.1               0.2            0.3           0.5
-FEATURES    FUTR(Paper result)       27.70         29.88             22.83          22.04                        32.27           29.88          27.49          25.87
-FEATURES     FUTR(my result)         28.59         26.30             23.84          22.34                        30.14           27.96           26.15         24.30
+|INPUT TYPES | METHOD |      |  β (α = 0.2)                        |  β (α = 0.3)|
+                              | 0.1   |0.2 | 0.3 | 0.5       |0.1  |0.2  |0.3  |0.5|
+|----------|------------------|---------------------------|-------------------------------| 
+|FEATURES| FUTR(Paper result) | 27.70 |29.88 |22.83 |22.04  | 32.27|29.88|27.49 |25.87|
+|FEATURES| FUTR(my result)    |28.59  |26.30 |23.84 |22.34  |30.14 |27.96 |26.15|24.30|
 
+ 
 
 
 ## Environmental setup
