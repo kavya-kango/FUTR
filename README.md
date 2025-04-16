@@ -45,7 +45,7 @@ We conduct experiments on Breakfast with 4 splits and 50Salads with 5 splits.
 ## Results we get when using Breakfast Dataset
 
 |INPUT TYPES | METHOD | obs 0.2, pred 0.1|obs 0.2, pred 0.2|obs 0.2, pred 0.3|obs 0.2, pred 0.5|obs 0.3, pred 0.1|obs 0.3, pred 0.2|obs 0.3, pred 0.3|obs 0.3, pred 0.5|    
-|-------|-------|-----------------|---------|--------|---------|---------|------------|-----------|----------|---------|   
+|-------|-------|-----------------|---------|--------|---------|---------|------------|-----------|----------|
 |FEATURES| FUTR(Paper result) | 27.70 |29.88 |22.83 |22.04  | 32.27|29.88|27.49 |25.87|
 |FEATURES| FUTR(my result)    |28.59  |26.30 |23.84 |22.34  |30.14 |27.96 |26.15|24.30|
 
